@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "tool_id": "human-baseline-population-energy",
+  "release_version": "v0.3.0-rc2",
+  "prepared_date": "2026-10-12",
+  "publication_timestamp": null,
+  "status": "simple_edition_candidate",
+  "runtime": {
+    "python": "3.12",
+    "entrypoint": "app.py"
+  },
+  "scope": "Population \u00d7 user-chosen uniform kcal; no nutritional reference inputs",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source_path": "private/tools/human-baseline-population/release/.gitignore",
+      "sha256": "9c6c12d734a922f6f691cd79d7f0ab922fc51b9a1ff257b49042943fd47b9936",
+      "bytes": 71
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "source_path": "private/tools/human-baseline-population/release/config.toml",
+      "sha256": "1332745740106ceab867b349f3e3b006c0da1d87e409842b3252c4610ad97a3f",
+      "bytes": 262
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_path": "private/tools/human-baseline-population/release_simple/CHANGELOG.md",
+      "sha256": "a4be65242785fde65863664675d4b4753f0f7087acb1fc3e94bb2338a2671644",
+      "bytes": 789
+    },
+    {
+      "path": "README.md",
+      "source_path": "private/tools/human-baseline-population/release_simple/README.md",
+      "sha256": "44bf67d23f5df2704494f98e7eb92412ccf6f4743bb415a46e388b4e818f9f1a",
+      "bytes": 2479
+    },
+    {
+      "path": "SOURCE-NOTICES.md",
+      "source_path": "private/tools/human-baseline-population/release_simple/SOURCE-NOTICES.md",
+      "sha256": "6db3b4db1bcdddba5ee0124a43ac3e7f20fc3eded57ca56f1f412f6d7b6f187b",
+      "bytes": 1673
+    },
+    {
+      "path": "app.py",
+      "source_path": "private/tools/human-baseline-population/app_simple.py",
+      "sha256": "e2c397f24337239876f561048ac59bd2bf6838f897f1b5416f8ced08dae6e660",
+      "bytes": 6208
+    },
+    {
+      "path": "check_simple.py",
+      "source_path": "private/tools/human-baseline-population/check_simple.py",
+      "sha256": "48926995c5b755a29c936a0877da863d21ca5320fb29d0aecacbc05267ce8f4f",
+      "bytes": 2821
+    },
+    {
+      "path": "constraints.txt",
+      "source_path": "private/tools/human-baseline-population/constraints.txt",
+      "sha256": "12b06187694f5451402f2a16579007a1405c803d4c297667e2116afbc68f6113",
+      "bytes": 693
+    },
+    {
+      "path": "data/human-baseline-population/manifests/eurostat-demo_pjan-eu27-2025.json",
+      "source_path": "data/human-baseline-population/manifests/eurostat-demo_pjan-eu27-2025.json",
+      "sha256": "aa794c809f732b087fd2813be91afd36777332a6a39e61b1d6b088e4f0b2e5aa",
+      "bytes": 1251
+    },
+    {
+      "path": "data/human-baseline-population/processed/eurostat-demo_pjan-eu27-2025-age-sex.csv",
+      "source_path": "data/human-baseline-population/processed/eurostat-demo_pjan-eu27-2025-age-sex.csv",
+      "sha256": "fc969cfe2c6abeaccf9a8665dddfd97e50e087d6f3c8be88fb9f2c7781da3f1a",
+      "bytes": 216686
+    },
+    {
+      "path": "data/human-baseline-population/raw/eurostat-demo_pjan-eu27-2025.json",
+      "source_path": "data/human-baseline-population/raw/eurostat-demo_pjan-eu27-2025.json",
+      "sha256": "28e65e52dcbc02198278e0a60b337012191101d222fd399bfe51b432977fdeb7",
+      "bytes": 121126
+    },
+    {
+      "path": "requirements.txt",
+      "source_path": "private/tools/human-baseline-population/requirements.txt",
+      "sha256": "6325b4a4272de3e07f4aa4dc2c6b4c5a8d635fea34a46564d4fd8ca711f991b9",
+      "bytes": 82
+    },
+    {
+      "path": "scenario_core.py",
+      "source_path": "private/tools/human-baseline-population/scenario_core.py",
+      "sha256": "66f2b020da3c6138e38356d18602cfb6735744d963fb2a34fd0354d918ae51db",
+      "bytes": 9452
+    },
+    {
+      "path": "simple_locale.py",
+      "source_path": "private/tools/human-baseline-population/simple_locale.py",
+      "sha256": "090929f5a3c3de1f7f6460b4f5ce875fd622bb25dc8cf695753eb7fcb41eef09",
+      "bytes": 21755
+    },
+    {
+      "path": "simple_model.py",
+      "source_path": "private/tools/human-baseline-population/simple_model.py",
+      "sha256": "75de7324d69f97fc58ed5ba420a91390512384ec05ed603e0109ad3974add3e6",
+      "bytes": 4453
+    },
+    {
+      "path": "verify_release.py",
+      "source_path": "private/tools/human-baseline-population/release/verify_release.py",
+      "sha256": "b04b12670268d16b33bd077b8bac29ccb6b7f31697b51bca2691698459f8a471",
+      "bytes": 1335
+    }
+  ]
+}
